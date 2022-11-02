@@ -18,11 +18,11 @@ We decided to use Python, an open-source tool, to develop this application since
 ### Challenges to developing this application
 We looked online (GitHub) and searched for an application of similar use and came across one called pSTaRT developed by Kurt Hoblinger in 2021, it is an iOS app that is limited in scope and does not have the features we are planning to introduce. The link to that app is: (https://github.com/nitricware/pSTaRT.gitthe). We are planning on using some of the features in this application to help develop our own, except that it is developed in 'swift.' We will attempt to use Code2Code Translator to convert the code from 'swift' to Python.
 
-### How to install STaRT?
+## How to install STaRT?
 Our intention is to make STaRT a mobile application that can be easily downloadable from AppStore or Google Play Store. As an interim, this applicatioin can be made available via the web link provided by the developers.
 
-### How to use STaRT?
+## How to use STaRT?
 As eluded to earlier, the official documentation related to any disaster recovery effort are manually done using standard forms provided by FEMA (Federal Emergency Management Agency) in 1994. Since then, and with the events of 9/11, these forms have been revised to accommodate major disasters recovery effort. The users should be quite familiar with the forms used, the information needed to fill out the form, the training documentation which will be provided separately once the project is complete will provided as user guides on the navigation of the application.
 
-### Intellectual Property
+## Intellectual Property
 It is the desire of the architects/developers of this application to make it available to government agencies across the world on a renewal fee based method. As such, all the literature contained in this respository cannot be duplicated, replicated, reverse-engineer without prior approval of the owners of this application. 
