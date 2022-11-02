@@ -14,7 +14,7 @@ We decided to use Python, an open-source tool, to develop this application since
 3. easy-to-read and understand code: Python speeds up the development process since it uses English keywords instead of punctuations
 4. vast community support
 5. supports big data: this might seem trivial for now, but our intention is to make this application publicly available (potentially for a nominal fee) as the 'de facto' tool for reporting in any type of disaster recovery not only in the USA, but globally
-6.   .. will be using Python technology to develop this application
+
 ### Challenges to developing this application
 We looked online (GitHub) and searched for an application of similar use and came across one called pSTaRT developed by Kurt Hoblinger in 2021, it is an iOS app that is limited in scope and does not have the features we are planning to introduce. The link to that app is: (https://github.com/nitricware/pSTaRT.gitthe). We are planning on using some of the features in this application to help develop our own, except that it is developed in 'swift.' We will attempt to use Code2Code Translator to convert the code from 'swift' to Python.
 
