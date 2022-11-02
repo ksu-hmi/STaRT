@@ -1,5 +1,28 @@
 # STaRT
-Simple Triage and Rapid Treatment (HMI 7540 - Group Project)
-Project Created on 10/28/2022
+This is a readme file for STaRT (Simple Triage and Rapid Treatment) application - Created on 10/28/2022
 
-Project switched from Private to Public on 1/1/2022
+## Project Title: STaRT 
+The title of our project represents the initials of Simple Triage and Rapid Treatment which is a triage method developed in 1983 and used by first responders to quickly classify victims during a mass casualty incident (MCI) based on the severity of their injury.
+
+## STaRT Project Description
+### What does STaRT do?
+This application can be used by volunteers or certified professionals as a mobile community-wide application during emergency situations or natural/man-made disasters to evaluate hazards and disseminate information. This information are related to: Damage Assessment, Personnel Resources Sign-In, Incident/Assignment Tracking Log, Briefing Assignment, Victim Treatment Area Record, Communications Log, etc. 
+### What technology will be used?
+We decided to use Python, an open-source tool, to develop this application since Python is one of the best, if not the best, language for app development as cited by (https://www.apptunix.com/blog/why-python-is-the-best-language-for-app-development/) since it has the following features:
+1. comprehensive libraries to enable the development of dynamic android applications
+2. compatibility with iOS 
+3. easy-to-read and understand code: Python speeds up the development process since it uses English keywords instead of punctuations
+4. vast community support
+5. supports big data: this might seem trivial for now, but our intention is to make this application publicly available (potentially for a nominal fee) as the 'de facto' tool for reporting in any type of disaster recovery not only in the USA, but globally
+6.   .. will be using Python technology to develop this application
+### Challenges to developing this application
+We looked online (GitHub) and searched for an application of similar use and came across one called pSTaRT developed by Kurt Hoblinger in 2021, it is an iOS app that is limited in scope and does not have the features we are planning to introduce. The link to that app is: (https://github.com/nitricware/pSTaRT.gitthe). We are planning on using some of the features in this application to help develop our own, except that it is developed in 'swift.' We will attempt to use Code2Code Translator to convert the code from 'swift' to Python.
+
+### How to install STaRT?
+Our intention is to make STaRT a mobile application that can be easily downloadable from AppStore or Google Play Store. As an interim, this applicatioin can be made available via the web link provided by the developers.
+
+### How to use STaRT?
+As eluded to earlier, the official documentation related to any disaster recovery effort are manually done using standard forms provided by FEMA (Federal Emergency Management Agency) in 1994. Since then, and with the events of 9/11, these forms have been revised to accommodate major disasters recovery effort. The users should be quite familiar with the forms used, the information needed to fill out the form, the training documentation which will be provided separately once the project is complete will provided as user guides on the navigation of the application.
+
+### Intellectual Property
+It is the desire of the architects/developers of this application to make it available to government agencies across the world on a renewal fee based method. As such, all the literature contained in this respository cannot be duplicated, replicated, reverse-engineer without prior approval of the owners of this application. 
