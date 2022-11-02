@@ -1,6 +1,7 @@
 # STaRT
 This is a readme file for STaRT (Simple Triage and Rapid Treatment) application - Created on 10/28/2022
 
+MOT-Branch1
 ## Project Title: STaRT 
 The title of our project represents the initials of Simple Triage and Rapid Treatment which is a triage method developed in 1983 and used by first responders to quickly classify victims during a mass casualty incident (MCI) based on the severity of their injury.
 
@@ -26,3 +27,7 @@ As eluded to earlier, the official documentation related to any disaster recover
 
 ## Intellectual Property
 It is the desire of the architects/developers of this application to make it available to government agencies across the world on a renewal fee based method. As such, all the literature contained in this respository cannot be duplicated, replicated, reverse-engineer without prior approval of the owners of this application. 
+=======
+Project switched from Private to Public on 1/1/2022
+Team member performing editing function to validate access
+main
