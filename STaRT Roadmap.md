@@ -14,8 +14,6 @@
 
 [ ] Prepare document “Leveraging Technology in Disasters”
 
-[ ] Prepare high-level technical design document for STaRT (first version)
-
 [ ] Prepare a shell of the Python Program
   
 ## Sprint2 – Project Design and Development
