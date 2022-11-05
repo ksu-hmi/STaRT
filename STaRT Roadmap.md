@@ -56,6 +56,8 @@
 ## Final Presentation
 
 [ ] Complete the slide deck
+
 [ ] Run at least 2 dry-runs of the presentation
+
 [ ] Present/video the PowerPoint presentation
 
