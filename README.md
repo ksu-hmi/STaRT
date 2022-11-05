@@ -2,7 +2,7 @@
 This is a readme file for STaRT (Simple Triage and Rapid Treatment) application - Created on 10/28/2022
 
 ## Project Title: STaRT 
-The title of our project represents the initials of Simple Triage and Rapid Treatment which is a triage method developed in 1983 and used by first responders to quickly classify victims during a mass casualty incident (MCI) based on the severity of their injury.
+The title of our project represents the initials of Simple Triage and Rapid Treatment which is a triage method developed in 1983 and used by first responders to quickly classify victims during a mass casualty incident (MCI) based on the severity of their injury,medical need and likely response to treatment.
 
 ## STaRT Project Description
 ### What does STaRT do?
