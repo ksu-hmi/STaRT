@@ -29,4 +29,6 @@ It is the desire of the architects/developers of this application to make it ava
 Created Markdown file from MS Word utilizing Aspose file converter which can be found here: https://products.aspose.com/words/python-net/conversion/word-to-markdown/ Each team member will provide input to the Product Roadmap for sprint 1, 2, and 3.  
 Added file for Suhail-25 / Machine Learning Triage Project Python Code to the Github page (File is in python format).
 Added the following artifacts:
-1. 
+1. Project Workflow
+2. LICENSE
+3. Leveraging Technology in Disasters
