@@ -2,33 +2,60 @@
 
 ![image](https://user-images.githubusercontent.com/111323403/200144592-546201e1-ffcf-4f89-ae07-fd7fe5dbe6a7.png)
 
-# Sprint 1 - Project Initiation and Setup
+## Sprint 1 - Project Initiation and Setup
 
-[] Create repositories
+[ ] Create repositories
 
-Create a README.md file
+[ ] Create a README.md file
 
-Search GitHub for code repositories with compatible deliverable
+[ ] Search GitHub for code repositories with compatible deliverable
 
-Create an Application Workflow
+[ ] Create an Application Workflow
 
-Prepare document “Leveraging Technology in Disasters”
+[ ] Prepare document “Leveraging Technology in Disasters”
 
-Prepare high-level technical design document for STaRT (first version)
+[ ] Prepare high-level technical design document for STaRT (first version)
 
-Prepare a shell of the Python Program
- 
- 
-# Sprint2 – Project Design and Development
+[ ] Prepare a shell of the Python Program
+  
+## Sprint2 – Project Design and Development
 
+[ ] Complete high-level design document
 
-    
-# Sprint3 – Project PPT Splash screen 
+[ ] Develop database using MySQL 
 
-[  ] Refining and testing final code.
+[ ] Prepare User Acceptance Testing document:
+[ ] Use cases for header 
+[ ] Use cases for locations (types: generic, residential, commercial, park, …)
+[ ] Use cases for CERT locations
+[ ] Use cases for personnel identification
+[ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
+[ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
 
-[  ] Introduce our product and the market about the product.
+[ ] Coding the application (one application with multiple code branches):
+[ ] Assigning code branches to coders (major owner, minor owner)
+[ ] Start coding assigned code branches
+[ ] Commit the code in repository
 
-[  ] Create PowerPoint slide.
+[ ] User Acceptance Testing:
+[ ] Unit testing by owners of each code branch
+[ ] Functional Testing performed by the entire team to ensure inter-related functionality
+[ ] Document test results in the testing document 
+[ ] Ensure that database tables are appropriately updated
+  
+## Sprint3 – Project PPT Splash screen 
 
-[  ] Create a copy of powerpoint in the github repository.
+[ ] Refining and testing final code.
+
+[ ] Introduce our product and the market about the product.
+
+[ ] Create PowerPoint slide.
+
+[ ] Create a copy of powerpoint in the github repository.
+
+## Final Presentation
+
+[ ] Complete the slide deck
+[ ] Run at least 2 dry-runs of the presentation
+[ ] Present/video the PowerPoint presentation
+
