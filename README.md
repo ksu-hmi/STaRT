@@ -27,4 +27,6 @@ As eluded to earlier, the official documentation related to any disaster recover
 ## Intellectual Property
 It is the desire of the architects/developers of this application to make it available to government agencies across the world on a renewal fee based method. As such, all the literature contained in this respository cannot be duplicated, replicated, reverse-engineer without prior approval of the owners of this application. 
 Created Markdown file from MS Word utilizing Aspose file converter which can be found here: https://products.aspose.com/words/python-net/conversion/word-to-markdown/ Each team member will provide input to the Product Roadmap for sprint 1, 2, and 3.  
-Added file for Suhail-25 / Machine Learning Triage Project Python Code to the Github page.  File is in the python format.  
+Added file for Suhail-25 / Machine Learning Triage Project Python Code to the Github page (File is in python format).
+Added the following artifacts:
+1. 
