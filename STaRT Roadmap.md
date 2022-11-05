@@ -26,12 +26,12 @@
 [ ] Develop database using MySQL 
 
 [ ] Prepare User Acceptance Testing document:
-   [ ] Use cases for header 
-   [ ] Use cases for locations (types: generic, residential, commercial, park, …)
-   [ ] Use cases for CERT locations
-   [ ] Use cases for personnel identification
-   [ ] Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
-   [ ] Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
+[ ] * Use cases for header 
+[ ] * Use cases for locations (types: generic, residential, commercial, park, …)
+[ ] * Use cases for CERT locations
+[ ] * Use cases for personnel identification
+[ ] * Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
+[ ] * Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
 
 [ ] Coding the application (one application with multiple code branches):
    [ ]	Assigning code branches to coders (major owner, minor owner)
