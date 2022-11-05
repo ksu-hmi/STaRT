@@ -4,7 +4,7 @@
 
 # Sprint 1 - Project Initiation and Setup
 
-Create repositories
+[] Create repositories
 
 Create a README.md file
 
