@@ -25,10 +25,10 @@ Prepare a shell of the Python Program
     
 # Sprint3 – Project PPT Splash screen 
 
-[ ] Refining and testing final code.
+[  ] Refining and testing final code.
 
-[ ] Introduce our product and the market about the product.
+[  ] Introduce our product and the market about the product.
 
-[ ] Create PowerPoint slide.
+[  ] Create PowerPoint slide.
 
-[ ] Create a copy of powerpoint in the github repository.
+[  ] Create a copy of powerpoint in the github repository.
