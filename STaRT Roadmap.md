@@ -4,17 +4,17 @@
 
 ## Sprint 1 - Project Initiation and Setup
 
-[ ] Create repositories
+[X] Create repositories
 
-[ ] Create a README.md file
+[X] Create a README.md file
 
-[ ] Search GitHub for code repositories with compatible deliverable
+[X] Search GitHub for code repositories with compatible deliverable
 
-[ ] Create an Application Workflow
+[X] Create an Application Workflow
 
-[ ] Prepare document “Leveraging Technology in Disasters”
+[X] Prepare document “Leveraging Technology in Disasters”
 
-[ ] Prepare a shell of the Python Program
+[X] Prepare a shell of the Python Program
   
 ## Sprint2 – Project Design and Development
 
