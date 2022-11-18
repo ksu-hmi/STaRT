@@ -30,7 +30,7 @@
 [ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
 [ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
 
-[ ] Coding the application (one application with multiple code branches):
+[ ] Coding the application - release 1 (one application with multiple code branches):
 [ ] Assigning code branches to coders (major owner, minor owner)
 [ ] Start coding assigned code branches
 [ ] Commit the code in repository
