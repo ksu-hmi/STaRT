@@ -42,8 +42,22 @@ def enterCatastrophes():
         print(catastrophes)
         #print('Student not found. Please check your spelling or go back and add if new.')
 
-#def enterLocations():
+#def Locations():
 
+def locations():
+    LocationName = input('Location name: ')
+    # LocationState = input('Location state: ')
+    #This checks through the keys of the location dictionary to see if the name entered exactly matches any one in there.
+    if LocationName in locations:
+        print('Adding another location for'+LocationName)
+        locations[LocationName].append(LocationName)
+        print(str(LocationName)+' now has this location: ')
+        print(locations)
+    else:
+        locations.update(LocationName)
+        # to add a new element to dictionary use dictionary name and .update
+        print(locations)
+       
 #def enterVolunteers():
 def enterVolunteers():
     volunteer_id = input('Please Enter Volunteer Id:')
@@ -60,8 +74,7 @@ def enterVolunteers():
         volunteer_expertise = input('Volunteer Expertise: ')
         volunteer_assigned_location = input('Volunteer Assigned Location:')
         volunteers.update({volunteer_id:[volunteer_name,volunteer_expertise,volunteer_age,volunteer_assigned_location]})
-        print(volunteers)
-                    
+        print(volunteers)        
 
 def main():
     print("User: " + login)
