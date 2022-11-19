@@ -9,7 +9,7 @@
 admins = {'STaRTadmin1':'MOT123','STaRTadmin2':'MOT123'}
 
 # Like the admins above, we have a dictionary of volunteers. Dictionaries use curly brackets with colons to associate keys with values. 
-# In this case, each volunteer first and last name is a key. The values are related to expertise, age, location. 
+# In this case, each volunteer  Id  is a key. The values are first and last name ,expertise, date of birth, and location. 
 
 volunteers = {'Alex Smith':'med tech, 28, Powder Springs ',
             'Sally Thomson':'CNA, 35, Marietta',
