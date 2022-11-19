@@ -32,3 +32,5 @@ Added the following artifacts:
 1. Project Workflow
 2. LICENSE
 3. Leveraging Technology in Disasters
+Added planning file for User Acceptance Testing planning, expectations and outcomes in the main branch
+Added an excel User Acceptance Testing file for testing functions in the application in the MOT1 branch.  Once this file (version) has been completed it will be moved to the main branch.
