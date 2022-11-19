@@ -51,7 +51,17 @@ def enterVolunteers():
 
     if volunteer_id in volunteers:
         print(" Volunteer Id was found ")
-        #we will add a confirmation processes for the Id also if we need to update or change the assigend location 
+        #we will add a confirmation processes for the Id also if we need to update or change the assigend location.
+    else:
+         #This to add new volunteer and update the data.
+        print('Volunteer Id was not found please add the inforamtion below.')
+        volunteer_name = input('Volunteer Name: ')
+        volunteer_age = input ('Volunteer Date Of Birth:')
+        volunteer_expertise = input('Volunteer Expertise: ')
+        volunteer_assigned_location = input('Volunteer Assigned Location:')
+        volunteers.update({volunteer_id:[volunteer_name,volunteer_expertise,volunteer_age,volunteer_assigned_location]})
+        print(volunteers)
+                    
 
 def main():
     print("User: " + login)
