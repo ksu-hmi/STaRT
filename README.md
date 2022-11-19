@@ -32,5 +32,7 @@ Added the following artifacts:
 1. Project Workflow
 2. LICENSE
 3. Leveraging Technology in Disasters
-Added planning file for User Acceptance Testing planning, expectations and outcomes in the main branch
-Added an excel User Acceptance Testing file for testing functions in the application in the MOT1 branch.  Once this file (version) has been completed it will be moved to the main branch.
+4. Added planning file for User Acceptance Testing planning, expectations and outcomes in the main branch
+5. Added an excel User Acceptance Testing file for testing functions in the application in the MOT1 branch.  Once this file (version) has been completed it will be moved to the main branch. For Sprint 2, testing of the functionality added in Sprint 2 will be reflected in this document.
+6. Added STaRT Technical Specs Document in branch MOT1, each contributor will make edits to this document and save with a new release number with Track ON. Then, all changes will be accepted, the document reviewed, and saved in Main directory.
+7. Added shell of STaRT application rel1.py in branch MOD1. All contributors will edit the code in this file. The final version will be uploaded into Main.
