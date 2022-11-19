@@ -45,6 +45,13 @@ def enterCatastrophes():
 #def enterLocations():
 
 #def enterVolunteers():
+def enterVolunteers():
+    volunteer_id = input('Please Enter Volunteer Id:')
+    #This checks through the keys of the volunteers dictionary to see if the Id entered exactly matches any one in there.
+
+    if volunteer_id in volunteers:
+        print(" Volunteer Id was found ")
+        #we will add a confirmation processes for the Id also if we need to update or change the assigend location 
 
 def main():
     print("User: " + login)
