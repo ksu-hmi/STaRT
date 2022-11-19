@@ -43,7 +43,6 @@ def enterCatastrophes():
         #print('Student not found. Please check your spelling or go back and add if new.')
 
 #def Locations():
-
 def locations():
     LocationName = input('Location name: ')
     # LocationState = input('Location state: ')
