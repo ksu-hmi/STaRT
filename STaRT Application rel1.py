@@ -11,9 +11,9 @@ admins = {'STaRTadmin1':'MOT123','STaRTadmin2':'MOT123'}
 # Like the admins above, we have a dictionary of volunteers. Dictionaries use curly brackets with colons to associate keys with values. 
 # In this case, each volunteer  Id  is a key. The values are first and last name ,expertise, date of birth, and location. 
 
-volunteers = {'Alex Smith':'med tech, 28, Powder Springs ',
-            'Sally Thomson':'CNA, 35, Marietta',
-            'Jeff Carpenter':'Certified Nurse, 22, Marietta'}
+volunteers = {'12-21':['Alex Smith''med tech', '1-28-1975', 'Powder Springs '],
+            '12-22':['Sally Thomson','CNA', '3-5-1995', 'Marietta'],
+            '12-23':['Jeff Carpenter','Certified Nurse', '4-22-1997','Marietta']}
 
 # Another dicitionary is the locations. The key to each location is area, the list includes: zip code, type of location 
 # (residential, commercial, park), Hurricane name, tagged (Yes/No), number of victims found
