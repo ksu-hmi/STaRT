@@ -18,7 +18,7 @@
   
 ## Sprint2 – Project Design and Development
 
-[ ] Complete high-level design document
+[ ] Complete high-level tech specs design document
 
 [ ] Develop database using MySQL 
 
