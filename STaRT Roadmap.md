@@ -18,30 +18,34 @@
   
 ## Sprint2 – Project Design and Development
 
-[ ] Complete high-level tech specs design document
+[X] Complete high-level tech specs design document
 
-[ ] Develop database using MySQL 
+[ ] Develop database using MySQL (pushed to Sprint 3)
 
-[ ] Prepare User Acceptance Testing document:
-[ ] Use cases for header 
+[X] Prepare User Acceptance Testing document:
+[X] Use cases for adming login
+[X] Use cases for main branch
+[X] Use cases for Catastrophe identification
 [ ] Use cases for locations (types: generic, residential, commercial, park, …)
 [ ] Use cases for CERT locations
 [ ] Use cases for personnel identification
 [ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
 [ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
 
-[ ] Coding the application - release 1 (one application with multiple code branches):
-[ ] Assigning code branches to coders (major owner, minor owner)
-[ ] Start coding assigned code branches
-[ ] Commit the code in repository
+[X] Coding the application - release 1 (one application with multiple code branches):
+[X] Assigning code branches to coders (major owner, minor owner)
+[X] Start coding assigned code branches
+[X] Commit the code in repository
 
-[ ] User Acceptance Testing:
-[ ] Unit testing by owners of each code branch
+[X] User Acceptance Testing:
+[X] Unit testing by owners of each code branch
 [ ] Functional Testing performed by the entire team to ensure inter-related functionality
-[ ] Document test results in the testing document 
+[X] Document test results in the testing document 
 [ ] Ensure that database tables are appropriately updated
   
 ## Sprint3 – Project PPT Splash screen 
+
+[ ] Develop database using MySQL (moved forward from Sprint 2)
 
 [ ] Refining and testing final code.
 
