@@ -23,11 +23,12 @@
 [ ] Develop database using MySQL (pushed to Sprint 3)
 
 [X] Prepare User Acceptance Testing document:
+[X] Create Planning Document outlining goal of User Acceptance Testing
 [X] Use cases for adming login
 [X] Use cases for main branch
 [X] Use cases for Catastrophe identification
 [ ] Use cases for locations (types: generic, residential, commercial, park, …)
-[ ] Use cases for CERT locations
+[X] Use cases for CERT locations
 [ ] Use cases for personnel identification
 [ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
 [ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
