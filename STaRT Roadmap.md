@@ -20,7 +20,7 @@
 
 | ✔ | Complete high-level tech specs design document
 
-| ❌| Develop database using MySQL (pushed to Sprint 3)
+[❌] Develop database using MySQL (pushed to Sprint 3)
 
 | ✔ | Prepare User Acceptance Testing documenT:
 
