@@ -17,8 +17,8 @@ volunteers = {'12-21':['Alex Smith''med tech', '1-28-1975', 'Powder Springs '],
 
 # Another dicitionary is the locations. The key to each location is area, the list includes: zip code, type of location 
 # (residential, commercial, park), Hurricane name, tagged (Yes/No), number of victims found
-locations = {'Powder Springs': '30127, residential, Hugo, Yes, 1',
-            'Marietta': '30061, commercial, Katrina, No, 10'}
+locations = {'Powder Springs': ['30127, residential, Hugo, Yes, 1',
+            'Marietta': '30061, commercial, Katrina, No, 10']}
 
 # Another dicitionary is the catastrophe names. The key to each catastrophe is the catastrophe name. The list includes:
 # Date of occurence, type of disaster (fire, hurricane, tornado), state
@@ -42,14 +42,16 @@ def enterCatastrophes():
         print(catastrophes)
         #print('Student not found. Please check your spelling or go back and add if new.')
 
-#def Locations():
-def locations():
+# def Locations (In further sprints we will change to Counties from cities and zipcodes)
+
+def enterlocations():
     LocationName = input('Location name: ')
-    # LocationState = input('Location state: ')
-    #This checks through the keys of the location dictionary to see if the name entered exactly matches any one in there.
+ #This checks through the keys of the location dictionary to see if the name entered exactly matches any one in there.
     if LocationName in locations:
+        print ('Location found')
+        locationzipcode = input ('please enter zip code:')
         print('Adding another location for'+LocationName)
-        locations[LocationName].append(LocationName)
+        locations[LocationName].append(locationzipcode)
         print(str(LocationName)+' now has this location: ')
         print(locations)
     else:
