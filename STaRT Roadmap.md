@@ -50,9 +50,9 @@
 
 | ✔ | Commit the code in repository
 
-| ✔ | User Acceptance Testing:
+| ✔ | User Acceptance Testing: Planning Document for User Accepance Testing.  
 
-| ✔ | Unit testing by owners of each code branch
+| ✔ | Unit testing by owners of each code branch:  Excel template created for User Acceptance Testing
 
 | ✔ |Functional Testing performed by the entire team to ensure inter-related functionality
 
