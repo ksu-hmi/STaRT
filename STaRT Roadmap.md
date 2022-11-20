@@ -4,23 +4,23 @@
 
 ## Sprint 1 - Project Initiation and Setup
 
-[X] Create repositories
+| ✔ | Create repositories
 
-[X] Create a README.md file
+| ✔ | Create a README.md file
 
-[X] Search GitHub for code repositories with compatible deliverable
+| ✔ | Search GitHub for code repositories with compatible deliverable
 
-[X] Create an Application Workflow
+| ✔ | Create an Application Workflow
 
-[X] Prepare document “Leveraging Technology in Disasters”
+| ✔ | Prepare document “Leveraging Technology in Disasters”
 
-[X] Prepare a shell of the Python Program
+| ✔ | Prepare a shell of the Python Program
   
 ## Sprint2 – Project Design and Development
 
-[X] Complete high-level tech specs design document
+| ✔ | Complete high-level tech specs design document
 
-[ ] Develop database using MySQL (pushed to Sprint 3)
+|    | Develop database using MySQL (pushed to Sprint 3)
 
 [X] Prepare User Acceptance Testing document:
 [X] Create Planning Document outlining goal of User Acceptance Testing
