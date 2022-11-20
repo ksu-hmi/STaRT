@@ -29,9 +29,9 @@
 [X] Use cases for Catastrophe identification
 [ ] Use cases for locations (types: generic, residential, commercial, park, …)
 [X] Use cases for CERT locations
-[ ] Use cases for personnel identification
-[ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location)
-[ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead
+[X] Use cases for personnel identification
+[ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
+[ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
 
 [X] Coding the application - release 1 (one application with multiple code branches):
 [X] Assigning code branches to coders (major owner, minor owner)
