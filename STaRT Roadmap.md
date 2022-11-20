@@ -32,7 +32,7 @@
 
 | ✔ | Use cases for Catastrophe identification
 
-| _ |Use cases for locations (types: generic, residential, commercial, park, …)
+| X |Use cases for locations (types: generic, residential, commercial, park, …)
 
 | ✔ | Use cases for CERT locations
 
