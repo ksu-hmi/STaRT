@@ -20,7 +20,7 @@
 
 | ✔ | Complete high-level tech specs design document
 
-|    | Develop database using MySQL (pushed to Sprint 3)
+| ❌| Develop database using MySQL (pushed to Sprint 3)
 
 | ✔ | Prepare User Acceptance Testing documenT:
 
@@ -32,23 +32,34 @@
 
 | ✔ | Use cases for Catastrophe identification
 
-|   | Use cases for locations (types: generic, residential, commercial, park, …)
+| _ |Use cases for locations (types: generic, residential, commercial, park, …)
 
 | ✔ | Use cases for CERT locations
 
 | ✔ |Use cases for personnel identification
-|   |	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
-|  |	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
+
+|❌|	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
+
+| ❌| 	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
+
 | ✔ | Coding the application - release 1 (one application with multiple code branches):
+
 | ✔ | Assigning code branches to coders (major owner, minor owner)
+
 | ✔ | Start coding assigned code branches
+
 | ✔ | Commit the code in repository
 
 | ✔ | User Acceptance Testing:
+
 | ✔ | Unit testing by owners of each code branch
+
 | ✔ |Functional Testing performed by the entire team to ensure inter-related functionality
-| ✔ |Document test results in the testing document 
-|  | Ensure that database tables are appropriately updated
+
+| ✔ |Document test results in the testing document
+
+| _ | Ensure that database tables are appropriately updated
+
   
 ## Sprint3 – Project PPT Splash screen 
 
