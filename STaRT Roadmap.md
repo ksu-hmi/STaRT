@@ -22,27 +22,26 @@
 
 |    | Develop database using MySQL (pushed to Sprint 3)
 
-[X] Prepare User Acceptance Testing document:
-[X] Create Planning Document outlining goal of User Acceptance Testing
-[X] Use cases for adming login
-[X] Use cases for main branch
-[X] Use cases for Catastrophe identification
-[ ] Use cases for locations (types: generic, residential, commercial, park, …)
-[X] Use cases for CERT locations
-[X] Use cases for personnel identification
-[ ]	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
-[ ]	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
+| ✔ | Prepare User Acceptance Testing document:
+| ✔ | Create Planning Document outlining goal of User Acceptance Testing
+| ✔ | Use cases for adming login
+| ✔ | Use cases for main branch
+| ✔ | Use cases for Catastrophe identification
+|   | Use cases for locations (types: generic, residential, commercial, park, …)
+| ✔ | Use cases for CERT locations
+| ✔ |Use cases for personnel identification
+|   |	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
+|  |	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
+| ✔ | Coding the application - release 1 (one application with multiple code branches):
+| ✔ | Assigning code branches to coders (major owner, minor owner)
+| ✔ | Start coding assigned code branches
+| ✔ | Commit the code in repository
 
-[X] Coding the application - release 1 (one application with multiple code branches):
-[X] Assigning code branches to coders (major owner, minor owner)
-[X] Start coding assigned code branches
-[X] Commit the code in repository
-
-[X] User Acceptance Testing:
-[X] Unit testing by owners of each code branch
-[ ] Functional Testing performed by the entire team to ensure inter-related functionality
-[X] Document test results in the testing document 
-[ ] Ensure that database tables are appropriately updated
+| ✔ | User Acceptance Testing:
+| ✔ | Unit testing by owners of each code branch
+| ✔ |Functional Testing performed by the entire team to ensure inter-related functionality
+| ✔ |Document test results in the testing document 
+|  | Ensure that database tables are appropriately updated
   
 ## Sprint3 – Project PPT Splash screen 
 
