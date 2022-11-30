@@ -65,13 +65,11 @@
 
 [✔] Develop database using MySQL (moved forward from Sprint 2)
 
-|✔ | Develop database using MySQL.
-
 [ ] Refining and testing final code.
 
 [ ] Introduce our product and the market about the product.
 
-[ ] Create PowerPoint slide.
+[ ✔] Create PowerPoint slide.
 
 [ ] Create a copy of powerpoint in the github repository.
 
