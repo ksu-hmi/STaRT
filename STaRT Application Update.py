@@ -83,10 +83,34 @@ def enterLocation():
 
 ###################################################
 ### function to update/insert Volunteer data
-
+# Voluneer code - Responsible coder for input/update and changes is Rich
 def enterVolunteer():
-    
+    Volunteer_FirstName = input("Enter Volunteer First Name: ")
+    Volunteer_LastName = inut("Enter Volunteer Last Name: ")
+    Volunteer_FullName = (Volunteer_FirstName + ' ' + Volunteer_LastName)
+    Volunteer_Age = input("Enter Volunteer Age: ")
+    Volunteer_Expertise = input("Enter Volunteer Expertise: ")
+    Volunteer_Certification = input ("enter Volunteer Certification: ")
+    Volunteer_Location = input ("Enter Volunteer Location: ")
 
+    q="select * from volunteers where Volunteer_FullName = 'Volunteer_FullName'"
+    cursorObject.execute(q)
+    row=cursorObject.fetchone()
+    if(row==None):
+        print("Not Found")
+        sql = "INSERT INTO volunteers (Volunteer_FullName, Volunteer_FirstName, Volunteer_LastName, Volunteer_Age, Volunteer_Expertise, Volunteer_Certification, Volunteer_Location) VALUES (%s,%s,%s,%s,%s,%s,%s)"
+        val = (Volunteer_FullName, Volunteer_FirstName, Volunteer_LastName, Volunteer_Age, Volunteer_Expertise, Volunteer_Certification, Volunteer_Location)
+        cursorObject.execute(sql, val)
+        connectionObject.commit()
+        connectionObject.close()
+    else:
+        print ("Record Found") 
+        #sql = "UPDATE volunteers SET Volunteer_FullName WHERE Volunteer_FullName = Volunteer_FullName"
+        #val = (Volunteer_FirstName, Volunteer_LastName, Volunteer_Age, Volunteer_Expertise, Volunteer_Certification, Volunteer_Location)
+        #cursorObject.execute(sql, val)  
+        #connectionObject.commit()
+        #connectionObject.close()
+        
 ##################################################
 ### function to update/insert Victim data
 
