@@ -69,7 +69,9 @@
 
 [ ❌] Introduce our product and the market about the product.(pushed to final presentaion )
 
-[ ✔] Create PowerPoint slide.
+[✔] Create PowerPoint slide.
+
+[✔] Created Initial Press Release for STaRT Application.
 
 [✔ ] Create a copy of powerpoint in the github repository.
 
