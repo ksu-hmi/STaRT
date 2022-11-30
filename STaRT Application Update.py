@@ -116,6 +116,56 @@ def enterVolunteer():
 
 def enterVictim():
 
+    Victim_FirstName = input("Enter Victim First Name: ")
+    Victim_LastName = input("Enter Victim Last Name: ")
+    Victim_FullName = (Victim_FirstName + ' ' + Victim_LastName)
+    Victim_Age = input("Enter Victim Age: ")
+    Triage_Date = input("Enter Triage Date: ")
+    IsVictimWalkingInjured = input("is Victim Walking Injured (Yes/No): ")
+    DoesVictimHaveRespiration = input ("Does Victim Have Respiration (Yes/No): ")
+    IsRespirationLessThan30perMin = input ("Is Respiration Less than 30 per Minute (Yes/No): ")
+    IsThereAPulse = input ("Is There a Pulse (Yes/No: ")
+    CanVictimFollowCommands = input ("Can Victim Follow Commands (Yes/No): ")
+    Related_Disaster = input ("Enter Related Disaster: ")
+    LocationID_Found = input ("Enter Location where Victim was Found: ")
+    Volunteer_Name = input ("Enter the full name of the Volunteer Handling the Victim: ")
+    Assigned_LocationID = input ("Enter the Location where the Triage is Handled: ")
+    
+    if IsVictimWalkingInjured == "Yes":
+	    Final_Disposition = "Minor"
+    else: 
+	    if DoesVictimHaveRespiration == "No":
+		    Final_Disposition = "Dead"
+	        if IsRespirationLessThan30perMin == "Yes":
+                if IsThereAPulse == "No":
+                    Final_Disposition = "Immediate"
+            else:
+                if CanVictimFollowCommands == "Yes":
+                    Final_Disposition = "Delayed"
+                else:
+                    Final_Disposition = "Immediate"
+		else:
+			Final_Disposition = "Immediate"
+
+    q="select * from victims where Victim_FullName = 'Victim_FullName'"
+        cursorObject.execute(q)
+        row=cursorObject.fetchone()
+        if(row==None):
+            print("Not Found")
+            sql = "INSERT INTO victims (Victim_FullName, Victim_FirstName, Victim_LastName, Victim_Age, Triage_Date, IsVictimWalkingInjured, DoesVictimHaveRespiration, IsRespirationLessThan30perMin, IsThereaPulse, CanVictimFollowCommands, Final_Disposition, Related_Disaster, LocationID_Found, Volunteer_Name, Assigned_LocationID) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+           val = (Victim_FullName, Victim_FirstName, Victim_LastName, Victim_Age, Triage_Date, IsVictimWalkingInjured, DoesVictimHaveRespiration, IsRespirationLessThan30perMin, IsThereaPulse, CanVictimFollowCommands, Final_Disposition, Related_Disaster, LocationID_Found, Volunteer_Name, Assigned_LocationID)
+            cursorObject.execute(sql, val)
+           connectionObject.commit()
+            connectionObject.close()
+      #  else:
+       #     print ("Record Found") 
+         #   #sql = "UPDATE volunteers SET Volunteer_FullName WHERE Volunteer_FullName = Volunteer_FullName"
+          #  #val = (Volunteer_FirstName, Volunteer_LastName, Volunteer_Age, Volunteer_Expertise, Volunteer_Certification, Volunteer_Location)
+          #  #cursorObject.execute(sql, val)  
+            #connectionObject.commit()
+            #connectionObject.close()
+
+
 
 
 #############################################
