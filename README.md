@@ -39,3 +39,7 @@ Added the following artifacts:
 8. Added code to shell of STaRT application re11.py in branch MOT1. 
 9. Added database design diagram for STaRT 
 10. added STaRT flask files in branch flask.
+Updated my python code.
+Created intitial press release for our STaRT Application.
+Updated Roadmap to reflect changes to Github.
+Updated User Acceptance Testing (UAT) spreadsheet to v 1.4.
