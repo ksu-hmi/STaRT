@@ -73,6 +73,8 @@
 
 [ ] Create a copy of powerpoint in the github repository.
 
+[✔] Develop database design diagram for the application
+
 ## Final Presentation
 
 [ ] Complete the slide deck
