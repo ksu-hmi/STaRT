@@ -41,7 +41,7 @@ try:
 
     Q1        = """CREATE TABLE Disaster(Disaster_Name varchar(50) PRIMARY KEY ,
                      Disaster_Type varchar(50), Disaster_Reason varchar(50),Disaster_Country varchar(50),
-                     Disaster_State varchar(50),Disaster_Date varchar(50))""" 
+                     Disaster_State varchar(50),Disaster_Date varchar(12))""" 
 
     
     #SQL creating Location table
@@ -51,7 +51,7 @@ try:
 
     Q2         = """CREATE TABLE Location (Location_ID int PRIMARY KEY ,Location_County varchar(50), 
                       Location_Address varchar(50),Location_City varchar(50) ,Location_Zip varchar(50),
-                      Location_VictimsNbr int,Location_Type varchar(50),Location_Tag boolean,Related_Disaster varchar(50),
+                      Location_VictimsNbr int,Location_Type varchar(50),Location_Tag varchar(10),Related_Disaster varchar(50),
                       FOREIGN KEY (Related_Disaster) REFERENCES  Disaster(Disaster_Name))"""
 
     #SQL creating Volunteer table:
@@ -70,9 +70,14 @@ try:
 
     Q4            = """CREATE TABLE Victims(Victim_FullName varchar(50) PRIMARY KEY,
                         Victim_FirstName varchar(50) ,Victim_LastName varchar(50), 
-                         Victim_Age int,Triage_Date int, Process_Steps  varchar(50),
-                         Final_Disposition varchar(50),Related_Disaster varchar(50),
-                         LocationID_Found int,Volunteer_Name varchar(50),Assigned_LocationID int , 
+                         Victim_Age int,Triage_Date varchar(12), 
+                         IsVictimWalkingInjured varchar(10),
+                         DoesVictimHaveRespiration varchar(10),
+                         IsRespirationLessThan30perMin varchar(10),
+                         IsThereAPulse varchar(10),
+                         CanVictimFollowCommands varchar(10),
+                        Final_Disposition varchar(50),Related_Disaster varchar(50),
+                        LocationID_Found int,Volunteer_Name varchar(50),Assigned_LocationID int , 
                         FOREIGN KEY (Related_Disaster) REFERENCES Disaster(Disaster_Name),
                         FOREIGN KEY (LocationID_Found) REFERENCES Location(Location_ID),
                         FOREIGN KEY (Volunteer_Name) REFERENCES Volunteers(Volunteer_FullName),
