@@ -71,7 +71,7 @@
 
 [ ✔] Create PowerPoint slide.
 
-[ ] Create a copy of powerpoint in the github repository.
+[✔ ] Create a copy of powerpoint in the github repository.
 
 [✔] Develop database design diagram for the application
 
