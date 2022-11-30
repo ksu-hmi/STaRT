@@ -36,4 +36,5 @@ Added the following artifacts:
 5. Added an excel User Acceptance Testing file for testing functions in the application in the MOT1 branch.  Once this file (version) has been completed it will be moved to the main branch. For Sprint 2, testing of the functionality added in Sprint 2 will be reflected in this document.
 6. Added STaRT Technical Specs Document in branch MOT1, each contributor will make edits to this document and save with a new release number with Track ON. Then, all changes will be accepted, the document reviewed, and saved in Main directory.
 7. Added shell of STaRT application rel1.py in branch MOT1. All contributors will edit the code in this file. The final version will be uploaded into Main.
-8. Added code to shell of STaRT application re11.py in branch MOT1.  
+8. Added code to shell of STaRT application re11.py in branch MOT1. 
+9. Added database design diagram for STaRT 
