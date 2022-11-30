@@ -18,7 +18,7 @@ cursorObject       = connectionObject.cursor()
 
 # added new code for different functions to update tables
 ### function to update/insert Disaster data
-
+# Disaster code - Responsible coder for input/update and changes is Elie
 def enterDisaster():
     Disaster_Name = input("Enter Disaster Name To Update: ")
     Disaster_Type = input("Enter Disaster Type: ")
@@ -50,7 +50,7 @@ def enterDisaster():
 #################################################
 
 ### function to update/insert Location data
-
+# Location code - Responsible coder for input/update and changes is Elie
 def enterLocation():
     Location_ID = input("Enter Location ID To Update: ")
     Location_County = input("Enter Location County: ")
@@ -83,7 +83,7 @@ def enterLocation():
 
 ###################################################
 ### function to update/insert Volunteer data
-# Voluneer code - Responsible coder for input/update and changes is Rich
+# Volunteer code - Responsible coder for input/update and changes is Rich
 def enterVolunteer():
     Volunteer_FirstName = input("Enter Volunteer First Name: ")
     Volunteer_LastName = inut("Enter Volunteer Last Name: ")
