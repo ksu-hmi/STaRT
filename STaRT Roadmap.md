@@ -63,7 +63,9 @@
   
 ## Sprint3 – Project PPT Splash screen 
 
-[ ] Develop database using MySQL (moved forward from Sprint 2)
+[✔] Develop database using MySQL (moved forward from Sprint 2)
+
+|✔ | Develop database using MySQL.
 
 [ ] Refining and testing final code.
 
