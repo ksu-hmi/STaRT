@@ -32,7 +32,7 @@
 
 | ✔ | Use cases for Catastrophe identification
 
-| X |Use cases for locations (types: generic, residential, commercial, park, …)
+| ✔|Use cases for locations (types: generic, residential, commercial, park, …)
 
 | ✔ | Use cases for CERT locations
 
@@ -65,9 +65,9 @@
 
 [✔] Develop database using MySQL (moved forward from Sprint 2)
 
-[ ] Refining and testing final code.
+[❌ ] Refining and testing final code.(pushed to final presentaion )
 
-[ ] Introduce our product and the market about the product.
+[ ❌] Introduce our product and the market about the product.(pushed to final presentaion )
 
 [ ✔] Create PowerPoint slide.
 
