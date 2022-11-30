@@ -38,3 +38,4 @@ Added the following artifacts:
 7. Added shell of STaRT application rel1.py in branch MOT1. All contributors will edit the code in this file. The final version will be uploaded into Main.
 8. Added code to shell of STaRT application re11.py in branch MOT1. 
 9. Added database design diagram for STaRT 
+10. added STaRT flask files in branch flask.
