@@ -36,13 +36,13 @@ Added the following artifacts:
 5. Added an excel User Acceptance Testing file for testing functions in the application in the MOT1 branch.  Once this file (version) has been completed it will be moved to the main branch. For Sprint 2, testing of the functionality added in Sprint 2 will be reflected in this document.
 6. Added STaRT Technical Specs Document in branch MOT1, each contributor will make edits to this document and save with a new release number with Track ON. Then, all changes will be accepted, the document reviewed, and saved in Main directory.
 7. Added shell of STaRT application rel1.py in branch MOT1. All contributors will edit the code in this file. The final version will be uploaded into Main.
-8. Added code to shell of STaRT application re11.py in branch MOT1. 
+8. Added code to shell of STaRT application rel1.py in branch MOT1. 
 9. Added database design diagram for STaRT 
-10. added STaRT flask files in branch flask.
-Updated my python code.
-Created intitial press release for our STaRT Application.
-Updated Roadmap to reflect changes to Github.
-Updated User Acceptance Testing (UAT) spreadsheet to v 1.4.
-Updated portion of STaRT2_Final_Code.py
-Updated Roadmap 
-Uploaded MOT STaRT Presentation News Press Release
+10. Added STaRT flask files in branch flask.
+11. Updated my python code.
+12. Created intitial press release for our STaRT Application.
+13. Updated Roadmap to reflect changes to Github.
+14. Updated User Acceptance Testing (UAT) spreadsheet to v 1.4.
+15. Updated portion of STaRT2_Final_Code.py
+16. Updated Roadmap 
+17. Uploaded MOT STaRT Presentation News Press Release
