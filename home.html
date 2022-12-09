@@ -1,10 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="home">
-    <h1>MOT Company Homepage</h1>
-    <p>A website dedicated to helping communities worldwide. {{myName}}</p>
+    <h1>STaRT Homepage</h1>
+    <p>This is a test website. {{myName}}</p>
     <p><form action="{{ url_for('greet') }}" method='post'>
-        Please type your name: <input type='text' name='myName'><br>
+          Please  type  your  username      : <input type='text' name='myName'><br>
+          Please enter your password : <input type='text' name='password'><br>
+        
         <input type='submit' value='Submit'>
         </form></p>
 </div>
