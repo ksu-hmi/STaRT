@@ -79,9 +79,14 @@
 
 ## Final Presentation
 
-[ ] Complete the slide deck
+[✔] Complete the slide deck
 
-[ ] Run at least 2 dry-runs of the presentation
+[✔] Run at least 2 dry-runs of the presentation
 
-[ ] Present/video the PowerPoint presentation
+[✔] Each team member take a screen shot of the presentation
 
+[✔] Present/video the PowerPoint presentation
+
+[✔] Copy link and provide screen shot in D2L
+
+[✔] Upload work products to Github
