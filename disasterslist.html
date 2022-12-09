@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <title>Disaster List</title>
+    <h1>STaRT App</h1>
+    <p>This is a test website. {{myName}}</p>
+    <link rel="stylesheet" crossorigin="anonymous"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+    
+	<script crossorigin="anonymous"
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" >
+	</script>
+
+
+</head>
+
+<body>
+    <h2>Disaster</h2>
+    <a class="btn btn-primary" href="adddisaster">Add Disaster</a>
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">Disaster_Name</th>
+            <th scope="col">Disaster_Type</th>
+            <th scope="col">Disaster_Reason</th>
+            <th scope="col">Disaster_Country</th>
+            <th scope="col">Disaster_State</th>
+            <th scope="col">Disaster_Date</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for Disaster in Disasters %}
+                <tr>
+                    <td>{{ Disaster.Disaster_Name }}</th>
+                    <td>{{ Disaster.Disaster_Type}}</td>
+                    <td>{{ Disaster.Disaster_Reason }}</td>
+                    <td>{{ Disaster.Disaster_Country }}</td>
+                    <td>{{ Disaster.Disaster_State}}</td>
+                    <td>{{ Disaster.Disaster_Date}}</td>
+                    <td><a href='updatedisaster/{{ Disaster.Disaster_Name }}'>Edit</a></td>
+                    <td><a href='deletedisaster/{{ Disaster.Disaster_Name }}'>Delete</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>

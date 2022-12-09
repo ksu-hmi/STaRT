@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <title>Disaster Details</title>
+    <link rel="stylesheet" crossorigin="anonymous"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+    
+	<script crossorigin="anonymous"
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" >
+	</script>
+
+   
+
+</head>
+
+<body>
+    <h2>Disaster Details</h2>
+
+    <form action="" method = "POST">
+        <div class="form-group row">
+          <label for="Disaster_Name">Disaster Name</label>
+          <input type="text" class="form-control" name="Disaster_Name" id="Disaster_Name" value="{{Disaster.Disaster_Name}}">
+        </div>
+        <div class="form-group row">
+            <label for="Disaster_Type">Disaster Type</label>
+            <input type="text" class="form-control" name="Disaster_Type" id="Disaster_Type" value="{{Disaster.Disaster_Type}}">
+        </div>
+        <div class="form-group row">
+            <label for="Disaster_Reason">Disaster Reason</label>
+            <input type="text" class="form-control" name="Disaster_Reason" id="Disaster_Reason" value="{{Disaster.Disaster_Reason}}">
+        </div>
+        <div class="form-group row">
+            <label for="Disaster_Country">Disaster Country </label>
+            <input type="text" class="form-control" name="Disaster_Country " id="Disaster_Country " value="{{Disaster.Disaster_Country}}">
+        </div>
+        <div class="form-group row">
+            <label for="Disaster_State">Disaster State </label>
+            <input type="text" class="form-control" name="Disaster_State " id="Disaster_State" value="{{Disaster.Disaster_State}}">
+        </div>
+        <div class="form-group row">
+            <label for="Disaster_Date">Disaster Date</label>
+            <input type="text" class="form-control" name="Disaster_Date" id="Disaster_Date" value="{{Disaster.Disaster_Date}}">
+        </div>
+        <button type="btnAdd" class="btn btn-primary">Submit</button>
+        <a href="/" class="btn btn-primary">Cancel</a>
+      </form>
+</body>
