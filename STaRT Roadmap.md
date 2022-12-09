@@ -40,7 +40,7 @@
 
 |❌|	Use cases for victim treatment (reflect step-by-step process, person conducting the step, date/time, location).(pushed to Sprint 3)
 
-| ❌| 	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
+|❌| 	Use cases for classification of treated people and classification as: minor, delayed, immediate, dead.(pushed to Sprint 3)
 
 | ✔ | Coding the application - release 1 (one application with multiple code branches):
 
@@ -67,7 +67,7 @@
 
 [❌ ] Refining and testing final code.(pushed to final presentaion )
 
-[ ❌] Introduce our product and the market about the product.(pushed to final presentaion )
+[❌] Introduce our product and the market about the product.(pushed to final presentaion )
 
 [✔] Create PowerPoint slide.
 
@@ -90,3 +90,6 @@
 [✔] Copy link and provide screen shot in D2L
 
 [✔] Upload work products to Github
+
+[✔] Testing the Product (MVP and Flask)
+
