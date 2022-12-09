@@ -191,7 +191,22 @@ def  update_disaster_data():
             print("THANK YOU !")
             break
         
+### function to delete Disaster data record
 
+def delete_record():
+    #This sets a spot in the database connection (cursor) for targeted retrieval
+    cursor      = connectionObject.cursor() 
+    name =  str(input("Enter the ID for the data record to delete:"))
+
+    try:
+        delete_sql = "DELETE FROM Disaster WHERE Disaster_Name = %s"
+        cursor.execute(delete_sql,name)
+        connectionObject.commit() #capture the result of the commit and use it to check the result
+        print ("Disaster ",name , "  deleted.")
+        print(cursor.rowcount, "record(s) deleted")
+    except Exception as e:
+        print (e)
+        pass
 
 ##########################################################
 # Code related to Location table: Retrieve-Insert-Update # 
@@ -235,7 +250,7 @@ def  insert_location_data():
     q="select * from location where Location_ID='Location_ID'"
     cursor.execute(q)
     row=cursor.fetchone()
-    
+      
     if(row==None):
         print("New Location record created")
         sql_1 = """INSERT INTO location (Location_ID, Location_County, Location_Address, 
@@ -248,6 +263,204 @@ def  insert_location_data():
         connectionObject.close()
         print(f'Successfully inserted records')
 
+ ### function to update Disaster data record
+
+def  update_location_data():
+    cursor      = connectionObject.cursor()
+    id=int(input("Enter the location Id to update: "))
+    q="select * from Location where Location_ID =%s"
+    cursor.execute(q,id)
+    record = cursor.fetchone()
+    print(record)
+    while True:
+
+        print('''
+            
+            1 = edit county
+            2 = edit address
+            3 = edit city     
+            4 = edit zipcode
+            5 = edit victim number
+            6 = edit location type
+            7 = edit location tag
+            8 = edit location related disaster
+            9 = Exit''')
+
+        feature = input("Enter which feature of the data do you want to edit: ")
+        
+
+        
+        if (feature == "1"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = str(input ("Enter the county new value: "))
+                
+                sql = "UPDATE  Location set Location_County= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "2"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location address new value: ")
+                
+                sql = "UPDATE Location set  Location_Address= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        
+        elif (feature == "3"):
+
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location city new value: ")
+                
+                sql = "UPDATE Location set Location_City= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "4"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location zipcode new value: ")
+                
+                sql = "UPDATE Location set Location_Zip= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "5"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = int(input ("Enter victim number new value: "))
+                
+                sql = "UPDATE Location set Location_VictimsNbr= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "6"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location type new value: ")
+                
+                sql = "UPDATE Location set Location_Type= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "7"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location tag new value: ")
+                
+                sql = "UPDATE Location set Location_Tag= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+        elif (feature == "8"):
+            try:
+                #This sets a spot in the database connection (cursor) for targeted retrieval
+                cursor      = connectionObject.cursor()
+                id=int(input("Enter the location Id to update: "))
+                update_value = input ("Enter location related disaster new value: ")
+                
+                sql = "UPDATE Location set Related_Disaste= %s Where Location_ID=%s"
+                data=(update_value,id)
+                cursor.execute(sql,data)
+                
+                connectionObject.commit() 
+                print("Record Updated successfully ")
+                # total number of rows updated
+                print("Total rows updated: %d" % cursor.rowcount)
+            except Exception as e:
+                print(e)
+            pass
+
+        elif(feature == "9"):
+            connectionObject.close()
+            print("THANK YOU !")
+            break
+               
+### function to delete Location data record
+
+def delete_location_record():
+    #This to view the data
+    view_location_data()
+    #This sets a spot in the database connection (cursor) for targeted retrieval
+    view_location_data()
+    cursor      = connectionObject.cursor() 
+    id=  int(input("Enter the ID for the data record to delete:"))
+
+    try:
+        delete_sql = "DELETE FROM Location WHERE Location_ID= %s"
+        cursor.execute(delete_sql,id)
+        connectionObject.commit() #capture the result of the commit and use it to check the result
+        print ("Disaster ",id, "  deleted.")
+        print(cursor.rowcount, "record(s) deleted")
+    except Exception as e:
+        print (e)
+        pass
 
 ###########################################################
 # Code related to Volunteer table: Retrieve-Insert-Update # 
