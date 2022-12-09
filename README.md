@@ -43,3 +43,6 @@ Updated my python code.
 Created intitial press release for our STaRT Application.
 Updated Roadmap to reflect changes to Github.
 Updated User Acceptance Testing (UAT) spreadsheet to v 1.4.
+Updated portion of STaRT2_Final_Code.py
+Updated Roadmap 
+Uploaded MOT STaRT Presentation News Press Release
